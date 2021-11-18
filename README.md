@@ -39,11 +39,11 @@ Responsive
 https://www.klm.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-home page
+home page klm
 <img src="images/klm-home.jpg" width="375px" alt="home page klm website">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-nereus talenten programma
+coronavirus klm
 <img src="images/corona-klm.jpg" width="375px" alt="de coronavirus pagina van klm">
  
 </details>
