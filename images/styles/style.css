@@ -1,0 +1,47 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+.logo {
+  display:flex;
+  height: 40px;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+
+.facebook {
+  display:flex;
+  height:60px;
+}
+
+.twitter {
+  display:flex;
+  height:35px;
+  margin-left:70px;
+  margin-top: -43px;
+}
+
+.linkedin {
+  display:flex;
+  height:60px;
+  margin-left:140px;
+  margin-top: -47px;
+}
+
+.footer {
+  display:flex;
+  flex-direction: column-reverse;
+  width: 200px;
+}
+
+.footerMenu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: -40px;
+}
+
+p{
+  width: 300px;
+}
