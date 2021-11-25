@@ -36,15 +36,15 @@ Responsive
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://www.klm.nl/
+https://www.nereus.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-home page klm
-<img src="images/klm-home.jpg" width="375px" alt="home page klm website">
+home page
+<img src="images/home_page.jpg" width="375px" alt="home page nereus website">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-coronavirus klm
-<img src="images/corona-klm.jpg" width="375px" alt="de coronavirus pagina van klm">
+nereus talenten programma
+<img src="images/talenten_programma.jpg" width="375px" alt="de talenten programma van nereus">
  
 </details>
 
