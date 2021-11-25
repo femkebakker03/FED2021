@@ -36,15 +36,15 @@ Responsive
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://www.nereus.nl/
+https://www.klm.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 home page
-<img src="images/home_page.jpg" width="375px" alt="home page nereus website">
+<img src="images/klm-home" width="375px" alt="home page KLM website">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 nereus talenten programma
-<img src="images/talenten_programma.jpg" width="375px" alt="de talenten programma van nereus">
+<img src="images/corona-klm" width="375px" alt="de corona pagina van KLM">
  
 </details>
 
@@ -56,13 +56,13 @@ nereus talenten programma
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/homePageBreakdownschets" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/dynamischDeelBreakdownschets" width="375px" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/dynamischDeel2Breakdownschets" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -76,17 +76,16 @@ nereus talenten programma
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Ik vond de input, de slider en de afbeeldingen lastig. Ik weet niet goed wat voor input ik moet gebruiken en hoe ik de slider moet maken. Ook weet ik niet waar ik de foto's van de KLM website vandaan moet halen. Ik heb dit dan ook nog niet in mijn code zitten. 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
 | student 1      | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| De input velden| en dit             | en ik dit    | en dan ik dat    |
+| De slider met images | dit als er tijd is | nog een punt | dit wil ik zeker |
+| Waar de content vandaan komt        | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
