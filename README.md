@@ -107,7 +107,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 Ik heb nu de volledige html en een klein begin van de css van de eerste pagina. 
-<img src="images/homepageversie1.png" width="375px" alt="voortgang homepage klm">
+<img src="images/homepageversie1.jpg" width="375px" alt="voortgang homepage klm">
 
 
 
