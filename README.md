@@ -40,11 +40,11 @@ https://www.klm.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 home page
-<img src="images/klm-home" width="375px" alt="home page KLM website">
+<img src="images/klm-home.JPG" width="375px" alt="home page KLM website">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 nereus talenten programma
-<img src="images/corona-klm" width="375px" alt="de corona pagina van KLM">
+<img src="images/corona-klm.JPG" width="375px" alt="de corona pagina van KLM">
  
 </details>
 
@@ -56,13 +56,13 @@ nereus talenten programma
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/homePageBreakdownschets" width="375px" alt="breakdown van de hele pagina">
+<img src="images/homePageBreakdownschets.JPG" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dynamischDeelBreakdownschets" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/dynamischDeelBreakdownschets.JPG" width="375px" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dynamischDeel2Breakdownschets" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/dynamischDeel2Breakdownschets.JPG" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -91,11 +91,9 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
-
+- We hebben input velden kunnen toevoegen. 
+- De student assistenten hebben mij opweg geholpen met een slider.
+- De student assistenten hebben mij verteld waar ik de content (foto's) vandaan kan halen. 
 </details>
 
 
@@ -108,7 +106,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb nu de volledige html en een klein begin van de css van de eerste pagina. 
 
 
 ### Agenda voor meeting
@@ -116,20 +114,15 @@ samen met je groepje opstellen
 
 | student 1      | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| surface of responsive  | en dit             | en ik dit    | en dan ik dat    |
+| 2e pagina css aansluiten | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
-
-</details>
+- Ik kon helaas deze week niet aanwezig zijn door mijn rijexame en door een operatie aan mijn kaak. Hierdoor loop ik achter op het programma en heb ik nog veel te doen. </details>
 
 
 
@@ -142,30 +135,14 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
+- De screenreader spreekt alles goed uit.
+- Met de tab knop op je toetsenbord kun je gemakkelijk door mijn site heen. 
+- Buttons moeten duidelijker. 
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Buttons moeten duidelijker
+De buttons waren moeilijk te bereiken voor mensen met een beperking. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
+Dit is op te lossen door beter te kijken naar het contrast. 
 </details>
 
 
@@ -178,7 +155,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik ben begonnen aan de 2e pagina en heb de eerste bijna af. 
 
 
 ### Agenda voor meeting

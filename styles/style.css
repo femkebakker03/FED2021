@@ -1,47 +1,555 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
-.logo {
-  display:flex;
-  height: 40px;
-  margin-left: 80px;
-  margin-bottom: 10px;
+/*styling voor de p elementen*/
+p {
+  display: flex;
+  font-family: verdana regular;
+  margin-left: 1%;
+  font-size: 10pt;
+  color: gray;
+  width: 95%;
+  line-height: 1.7;
 }
 
+/*styling voor de top navigatie*/
+.nav {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+}
+
+.nav :first-child {
+  fill: #00a1de;
+  width: 5%;
+  margin-top: 4%;
+  margin-left: 5%;
+}
+
+.nav :nth-child(2) {
+  width: 13%;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: -2%;
+}
+
+.nav :nth-child(3) {
+  display: flex;
+  fill: #00a1de;
+  width: 5%;
+  margin-left: 93%;
+}
+
+/*styling voor de section boeken*/
+.boeken {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.boeken :first-child {
+  fill: #00a1de;
+  width: 6%;
+  margin-right: 5%;
+  margin-top: 1%;
+}
+
+.boeken h1 {
+  font-family: verdana regular;
+  font-size: 10pt;
+  color: #00a1de;
+  margin-top: 1%;
+}
+
+/*styling voor het formulier */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form :first-child {
+  font-family: verdana regular;
+  font-size: 12pt;
+  margin-top: 10%;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  margin-bottom: 10%;
+  width: calc(100% - 1em);
+  border: 0;
+  border-bottom: 1px solid #a9a9a9;
+}
+
+.form svg {
+  display: flex;
+  fill: #00a1de;
+  width: 6%;
+  margin-left: 4%;
+}
+
+.form input {
+  font-size: 12pt;
+  padding-top: 1%;
+  margin-top: 5%;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  margin-bottom: 10%;
+  width: calc(100% - 1em);
+  border: 0;
+  border-bottom: 1px solid #a9a9a9;
+  background-repeat: no-repeat;
+  background-size: 1em;
+  background-position: 0.2em 50%;
+  padding-left: 1.4em;
+}
+
+.form input:nth-of-type(1) {
+  background-image: url("../images/vliegtuigOpstijgen.svg");
+}
+
+.form input:nth-of-type(2) {
+  background-image: url("../images/vliegtuigLanden.svg");
+}
+
+.class {
+  font-size: 12pt;
+  padding-top: 0;
+  padding-bottom: 3%;
+  margin-top: 5%;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  width: calc(100% - 1em);
+  border: 0;
+  border-bottom: 1px solid #a9a9a9;
+}
+
+.checkbox {
+  display: flex;
+  align-content: flex-start;
+  margin-left: -8em;
+}
+
+.checkbox p {
+  font-family: verdana regular;
+  font-size: 10pt;
+  display: flex;
+  margin-top: 8%;
+  margin-left: -20%;
+  width: 100%;
+}
+
+.form .zoeken {
+  font-family: verdana regular;
+  color: white;
+  background-color: #e37222;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 335px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+}
+
+/*styling voor de eerste carousel*/
+.carousel1 {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
+
+.carousel1 img {
+  width: 100%;
+}
+
+/*styling voor het tabblad vluchten*/
+.vluchten button:nth-of-type(1) {
+  display: flex;
+  font-family: verdana regular;
+  font-size: 10pt;
+  color: #005b82;
+  background-color: white;
+  margin-top: 20%;
+  margin-bottom: -8%;
+  margin-left: 5%;
+  padding-bottom: 3%;
+  border: 0;
+  border-bottom: 2px solid #00a1de;
+}
+
+.vluchten button:nth-of-type(2) {
+  display: flex;
+  font-family: verdana regular;
+  font-size: 10pt;
+  color: #005b82;
+  background-color: white;
+  margin-top: 20%;
+  margin-bottom: -8%;
+  margin-left: 30%;
+  margin-top: 0;
+  padding-bottom: 3%;
+  border: 0;
+}
+
+/*styling voor het carousel*/
+.carousel {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
+
+.carrousel2 {
+  margin-top: 15%;
+  height: 250px;
+  width: 280px;
+  margin-left: 3%;
+  margin-right: 5%;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+}
+
+/*styling voor het tabblad vluchten*/
+.vluchten button:nth-of-type(3) {
+  font-family: verdana regular;
+  color: white;
+  background-color: #00a1de;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 20%;
+  padding-right: 25%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 10%;
+  margin-top: 3%;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+}
+
+/*styling voor de section verrijken*/
+.verrijken h2 {
+  font-family: verdana regular;
+  font-size: 16pt;
+  font-weight: lighter;
+  margin-bottom: -10%;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+.carrousel3 {
+  margin-top: 15%;
+  ;
+  height: 180px;
+  width: 70%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+}
+
+.verrijken button {
+  font-family: verdana regular;
+  color: white;
+  background-color: #00a1de;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin: 10px;
+  margin-top: 30px;
+  width: 335px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+}
+
+/*styling voor de section speciale aanbiedingen*/
+.speciale_aanbiedingen {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+  border-radius: 2px;
+  padding-top: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 12%;
+  width: 95%;
+}
+
+.speciale_aanbiedingen h2 {
+  font-family: verdana regular;
+  font-weight: lighter;
+  font-size: 15pt;
+  margin-left: 3%;
+  margin-bottom: 2%;
+}
+
+.speciale_aanbiedingen p {
+  width: 90%;
+  margin-top: 0;
+  margin-left: 3%;
+  font-size: 10pt;
+}
+
+.speciale_aanbiedingen button {
+  font-family: verdana regular;
+  color: white;
+  background-color: #00a1de;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin-bottom: 5%;
+  margin-top: 8%;
+  margin-left: 3%;
+  width: 93%;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+}
+
+.button4 {
+  margin: 5%;
+  width: 90%;
+  border-bottom: 1px solid #00a1de;
+}
+
+/*styling voor de knop om naar boven te gaan*/
+.back {
+  margin-top: 10%;
+  margin-left: 27%;
+  margin-bottom: 23%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 5%;
+  padding-left: 5%;
+  border: 1;
+  border-radius: 2px;
+  border-color: #00a1de;
+  font-family: verdana regular;
+  color: #00a1de;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+}
+
+/*styling voor de sociale media iconen*/
 .facebook {
-  display:flex;
-  height:60px;
+  display: flex;
+  height: 35px;
+  margin-left: 1%;
 }
 
 .twitter {
-  display:flex;
-  height:35px;
-  margin-left:70px;
-  margin-top: -43px;
+  display: flex;
+  height: 15px;
+  margin-left: 13%;
+  margin-top: -6%;
 }
 
 .linkedin {
-  display:flex;
-  height:60px;
-  margin-left:140px;
-  margin-top: -47px;
+  display: flex;
+  height: 35px;
+  margin-left: 23%;
+  margin-top: -8%;
 }
 
+/*styling voor de footer*/
 .footer {
-  display:flex;
-  flex-direction: column-reverse;
-  width: 200px;
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  font-size: 13pt;
+  padding: 0;
+  border-top: 1px;
+}
+
+.footer button {
+  font-family: verdana regular;
+  color: #003145;
+  background-color: -internal-light-dark(black, white);
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin: 0;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  width: 95%;
+  border: 0;
+  border-top: 1px solid #00a1de;
+  border-radius: 2px;
+  font-family: verdana regular;
+  text-align: left;
+  font-size: 16pt;
+}
+
+.footer button:last-of-type {
+  margin-bottom: 25%;
+}
+
+.footerNav {
+  margin-top: 10%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: white;
 }
 
 .footerMenu {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   flex-direction: row;
   list-style: none;
-  margin-left: -40px;
+  margin-left: -10%;
+  margin-top: -4%;
+  margin-bottom: 5%;
+  font-size: 10px;
+  justify-content: space-around;
+  fill: #00a1de;
+  background-color: white;
 }
 
-p{
-  width: 300px;
+.footerSvg {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: -5%;
+  margin-right: -5%;
+  margin-top: -4%;
+  margin-bottom: 5%;
+  padding-top: 4%;
+  justify-content: space-around;
+  fill: #00a1de;
+  background-color: white;
+}
+
+
+
+
+
+/* hier begint de css voor de tweede pagina */
+
+/*styling voor alle sections*/
+.page2 section {
+  padding-bottom: 1%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+  border-radius: 2px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 10%;
+}
+
+/*styling voor de sections met de class "none"*/
+.page2 .none {
+  padding-bottom: 0;
+  box-shadow: none;
+  border-radius: 2px;
+  margin-left: 1%;
+  margin-right: 2%;
+  margin-top: 10%;
+}
+
+/*styling voor de p elementen in de class "none"*/
+.page2 .noneP {
+  color: #003145;
+  border: 0;
+  border-bottom: 1px solid #003145;
+  width: 25%;
+  margin-top: -3%;
+}
+
+/*styling voor de h1 elementen in de class "none"*/
+.page2 .none h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #003145;
+  font-weight: 50;
+  font-size: 1.8em;
+  margin-left: 4%;
+  margin-top: -4%;
+}
+
+/*styling voor de h1/2/3 elementen*/
+.page2 h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #003145;
+  font-weight: 50;
+  font-size: 1.8em;
+  margin-left: 4%;
+}
+
+.page2 h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #003145;
+  font-weight: 50;
+  font-size: 16pt;
+}
+
+.page2 h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #003145;
+  font-weight: 400;
+  margin-left: 4%;
+  padding-top: 5%;
+}
+
+/*styling voor de p elementen in page 2*/
+.page2 p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+  width: 95%;
+  font-size: 10pt;
+  font-weight: 400;
+  margin-left: 4%;
+  margin-bottom: 10%;
+}
+
+/*styling voor de afbeeldingen in page 2*/
+.page2 .img {
+  width: 100%;
+}
+
+
+/*styling voor de sociale media iconen in page 2*/
+.page2 .none .facebook {
+  display: flex;
+  height: 35px;
+  margin-left: 1%;
+}
+
+.page2 .none .twitter {
+  display: flex;
+  height: 15px;
+}
+
+.page2 .none .linkedin {
+  display: flex;
+  height: 35px;
+}
+
+/*styling voor de footer in page 2*/
+.footerNav {
+  margin-top: 10%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: white;
+}
+
+.page2 .none .footer {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  font-size: 13pt;
+  padding: 0;
+  border-top: 1px;
+}
+
+.page2 .footer2 {
+  margin-top: 20%;
+  margin-left: 1%;
+  margin-right: 1%;
+  border-top: 1px solid #00a1de;
 }
