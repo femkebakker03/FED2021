@@ -43,7 +43,7 @@ home page
 <img src="images/klm-home.JPG" width="375px" alt="home page KLM website">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-nereus talenten programma
+KLM corona programma
 <img src="images/corona-klm.JPG" width="375px" alt="de corona pagina van KLM">
  
 </details>
@@ -107,6 +107,9 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 Ik heb nu de volledige html en een klein begin van de css van de eerste pagina. 
+<img src="images/homepageversie1" width="375px" alt="de corona pagina van KLM">
+
+
 
 
 ### Agenda voor meeting
@@ -155,7 +158,8 @@ Dit is op te lossen door beter te kijken naar het contrast.
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-Ik ben begonnen aan de 2e pagina en heb de eerste bijna af. 
+Ik ben begonnen aan de 2e pagina en heb de eerste bijna af. <img src="images/homepagefull" width="375px" alt="de corona pagina van KLM">
+
 
 
 ### Agenda voor meeting
@@ -163,19 +167,16 @@ samen met je groepje opstellen
 
 | student 1      | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| Laatste styling  | en dit             | en ik dit    | en dan ik dat    |
+| Hulp met begin 2e pagina | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
-
+- Nadenken over surface of responsive.
+- Beautifyer gebruiken.
 </details>
 
 
@@ -188,11 +189,15 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik vond dit hele vak lastig. Vooral het responsive. <img src="images/grotenav" width="375px" alt="de corona pagina van KLM">
+Hier zie je dat de navigatie erg groot wordt wanneer de pagina groter is. 
+
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="images/homepageEind" width="375px" alt="de corona pagina van KLM">
+
+<img src="images/coronaEind" width="375px" alt="de corona pagina van KLM">
 
 </details>
 
@@ -205,10 +210,12 @@ hier screenshot(s) van je eindresultaat
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+	Dit heb ik gebruikt voor de micro interactie. 
+2. https://stackoverflow.com/questions/60680652/how-to-add-a-shadow-under-a-navbar-using-css
+	Dit heb ik gebruikt voor de schaduw under de buttons en de nav. 
+3. https://www.codegrepper.com/code-examples/css/css+pin+navbar+to+top+of+screen
+	Dit heb ik gebruikt voor het vastzetten van de onderste navigatie. 	
 
 </details>
