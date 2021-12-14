@@ -107,7 +107,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 Ik heb nu de volledige html en een klein begin van de css van de eerste pagina. 
-<img src="images/homepageversie1" width="375px" alt="de corona pagina van KLM">
+<img src="images/homepageversie1.jpg" width="375px" alt="de corona pagina van KLM">
 
 
 
@@ -158,7 +158,7 @@ Dit is op te lossen door beter te kijken naar het contrast.
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-Ik ben begonnen aan de 2e pagina en heb de eerste bijna af. <img src="images/homepagefull" width="375px" alt="de corona pagina van KLM">
+Ik ben begonnen aan de 2e pagina en heb de eerste bijna af. <img src="images/homepagefull.jpg" width="375px" alt="de corona pagina van KLM">
 
 
 
@@ -189,15 +189,15 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-Ik vond dit hele vak lastig. Vooral het responsive. <img src="images/grotenav" width="375px" alt="de corona pagina van KLM">
+Ik vond dit hele vak lastig. Vooral het responsive. <img src="images/grotenav.jpg" width="375px" alt="de corona pagina van KLM">
 Hier zie je dat de navigatie erg groot wordt wanneer de pagina groter is. 
 
 
 ### Screenshot(s)
 
-<img src="images/homepageEind" width="375px" alt="de corona pagina van KLM">
+<img src="images/homepageEind.jpg" width="375px" alt="de corona pagina van KLM">
 
-<img src="images/coronaEind" width="375px" alt="de corona pagina van KLM">
+<img src="images/coronaEind.jpg" width="375px" alt="de corona pagina van KLM">
 
 </details>
 
