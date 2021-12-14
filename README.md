@@ -107,7 +107,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 Ik heb nu de volledige html en een klein begin van de css van de eerste pagina. 
-<img src="images/homepageversie1.png" width="375px" alt="de corona pagina van KLM">
+<img src="images/homepageversie1.png" width="375px" alt="de corona pagina van KLM"</img>
 
 
 
@@ -189,13 +189,13 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-Ik vond dit hele vak lastig. Vooral het responsive. <img src="images/grotenav.png" width="375px" alt="de corona pagina van KLM">
+Ik vond dit hele vak lastig. Vooral het responsive. <img src="images/grotenav.png" width="375px" alt="de corona pagina van KLM"</img>
 Hier zie je dat de navigatie erg groot wordt wanneer de pagina groter is. 
 
 
 ### Screenshot(s)
 
-<img src="images/homepageEind.png" width="375px" alt="de corona pagina van KLM">
+<img src="images/homepageEind.png" width="375px" alt="de corona pagina van KLM"</img>
 
 <img src="images/coronaEind.png" width="375px" alt="de corona pagina van KLM"</img>
 
