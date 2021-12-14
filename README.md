@@ -197,7 +197,7 @@ Hier zie je dat de navigatie erg groot wordt wanneer de pagina groter is.
 
 <img src="images/homepageEind.png" width="375px" alt="de corona pagina van KLM">
 
-<img src="images/coronaEind.png" width="375px" alt="de corona pagina van KLM">
+<img src="images/coronaEind.png" width="375px" alt="de corona pagina van KLM"</img>
 
 </details>
 
