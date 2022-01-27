@@ -219,5 +219,7 @@ Hier zie je dat de navigatie erg groot wordt wanneer de pagina groter is. Uitein
 	Dit heb ik gebruikt voor het vastzetten van de onderste navigatie. 
 4. https://www.w3schools.com/howto/howto_css_switch.asp
 	Dit heb ik gebruikt voor de toggle.
+5. https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+	Dit heb ik gebruikt voor de CSS variabelen
 
 </details>
