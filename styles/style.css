@@ -5,6 +5,15 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text-color: #003145;
+  --background-color: #00a1de;
+  --background-color2: white;
+  --background-color3: #e37222;
+  --border-color: #a9a9a9;
+}
+
+/*styling voor de gehele body*/
 body {
   margin: 0;
 }
@@ -13,10 +22,10 @@ body {
 p {
   display: flex;
   font-family: "Verdana", "sans-serif";
-  margin-left: 7px;
-  font-size: 10pt;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 0.85em;
   color: gray;
-  width: 95%;
   line-height: 1.7;
 }
 
@@ -26,25 +35,29 @@ p {
   display: flex;
   padding: 0.2em;
   align-items: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .nav svg {
   height: 20px;
   width: 20px;
   margin: 0 5px;
+  color: var(--background-color);
+  fill: currentColor;
 }
 
 .nav img {
   height: 30px;
   width: 50px;
-  margin: 0 5px;
+  margin: 0 15px;
 }
 
 .nav svg:last-of-type {
   margin-left: auto;
 }
 
-.nav > section {
+.nav>section {
   position: absolute;
   left: 0;
   right: 0;
@@ -59,13 +72,13 @@ p {
   display: unset !important;
 }
 
-.nav > section > section {
-  background: white;
+.nav>section>section {
+  background: var(--background-color2);
   width: 80%;
   height: 100%;
 }
 
-.nav > section > section ul {
+.nav>section>section ul {
   margin: 0;
   list-style: none;
   padding: 0;
@@ -73,42 +86,43 @@ p {
   padding-top: 7px;
 }
 
-.nav > section > section ul li {
+.nav>section>section ul li {
   width: 100%;
 }
 
-.nav > section > section ul li a {
+.nav>section>section ul li a {
   padding: 1em 2em;
   width: 100%;
   display: inline-block;
   text-decoration: none;
-  color: #003145;
+  color: var(--text-color);
   font-family: "Verdana", "sans-serif";
 }
 
-.nav > section > section ul li a.active {
-  border-left: 4px solid #e37222;
+.nav>section>section ul li a.active {
+  border-left: 4px solid var(--background-color3);
   background-color: #f0efed;
 }
+
 
 /*styling voor de section boeken*/
 .boeken {
   display: flex;
   align-items: flex-start;
-  margin-left: 10px;
+  margin-left: 15px;
   margin-top: 20px;
 }
 
-.boeken :first-child {
-  fill: #00a1de;
+.boeken svg {
+  fill: var(--background-color);
   width: 25px;
   margin-right: 10px;
 }
 
 .boeken h1 {
   font-family: "Verdana", "sans-serif";
-  font-size: 10pt;
-  color: #00a1de;
+  font-size: 0.84em;
+  color: var(--background-color);
   margin-top: 5px;
 }
 
@@ -121,24 +135,23 @@ p {
 
 .form :first-child {
   font-family: "Verdana", "sans-serif";
-  font-size: 12pt;
+  font-size: 1em;
   margin-top: 40px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
   margin-bottom: 30px;
   border: 0;
-  border-bottom: 1px solid #a9a9a9;
 }
 
 .form input {
-  font-size: 12pt;
-  padding-top: 1%;
+  font-size: 1em;
+  padding-top: 10px;
   margin-top: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
   margin-bottom: 40px;
   border: 0;
-  border-bottom: 1px solid #a9a9a9;
+  border-bottom: 1px solid var(--border-color);
   background-repeat: no-repeat;
   background-size: 1em;
   background-position: 0.2em 50%;
@@ -153,47 +166,109 @@ p {
   background-image: url("../images/vliegtuigLanden.svg");
 }
 
-.class {
-  font-size: 12pt;
-  padding-bottom: 3px;
-  margin-bottom: 10px;
-  margin-top: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
-  border: 0;
-  border-bottom: 1px solid #a9a9a9;
-}
-
-.checkbox {
-  display: flex;
-  align-content: flex-start;
-  margin-left: 5px;
-}
-
-.checkbox p {
+.form input:nth-child(8) {
   font-family: "Verdana", "sans-serif";
-  font-size: 10pt;
-  display: flex;
-  margin-top: 35px;
-  margin-left: 10px;
-}
-
-.form .zoeken {
-  font-family: "Verdana", "sans-serif";
-  color: white;
-  background-color: #e37222;
+  color: var(--background-color2);
+  background-color: var(--background-color3);
   padding-top: 12px;
   padding-bottom: 12px;
-  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 30px;
   margin-bottom: 40px;
-  width: 335px;
   border: none;
   border-radius: 2px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
 }
 
-/*styling voor de eerste carousel*/
+.class {
+  font-size: 1em;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
+  border: 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+
+/* Hier begint de styling voor de toggle switch */
+/* Bron code: https://www.w3schools.com/howto/howto_css_switch.asp */
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: var(--background-color2);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider {
+  background-color: #2196F3;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(24px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* de styling voor de tekst die hoort bij de toggle switch */
+div p {
+  font-family: "Verdana", "sans-serif";
+  font-size: 0.85em;
+  display: flex;
+  margin-top: -70px;
+  margin-left: 100px;
+}
+
+/*styling voor het eerste carousel*/
 .carousel1 {
   display: flex;
   flex-direction: row;
@@ -201,30 +276,31 @@ p {
 }
 
 .carousel1 img {
-  width: 100%;
+  width: 90%;
+  margin-left: 15px;
 }
 
 /*styling voor het tabblad vluchten*/
 .vluchten button:nth-of-type(1) {
   display: flex;
   font-family: "Verdana", "sans-serif";
-  font-size: 10pt;
+  font-size: 0.85em;
   color: #005b82;
-  background-color: white;
+  background-color: var(--background-color2);
   margin-top: 40px;
   margin-bottom: -28px;
-  margin-left: 10px;
+  margin-left: 15px;
   padding-bottom: 8px;
   border: 0;
-  border-bottom: 2px solid #00a1de;
+  border-bottom: 2px solid var(--background-color);
 }
 
 .vluchten button:nth-of-type(2) {
   display: flex;
   font-family: "Verdana", "sans-serif";
-  font-size: 10pt;
+  font-size: 0.85em;
   color: #005b82;
-  background-color: white;
+  background-color: var(--background-color2);
   margin-top: 40px;
   margin-bottom: -28px;
   margin-left: 100px;
@@ -238,6 +314,7 @@ p {
   display: flex;
   flex-direction: row;
   overflow-x: auto;
+  margin-left: 10px;
 }
 
 .carrousel2 {
@@ -253,14 +330,14 @@ p {
 /*styling voor het tabblad vluchten*/
 .vluchten button:nth-of-type(3) {
   font-family: "Verdana", "sans-serif";
-  color: white;
-  background-color: #00a1de;
+  color: var(--background-color2);
+  background-color: var(--background-color);
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 79px;
-  padding-right: 78px;
-  margin-left: 10px;
-  margin-right: 10px;
+  padding-left: 75px;
+  padding-right: 75px;
+  margin-left: 18px;
+  margin-right: 15px;
   margin-bottom: 30px;
   margin-top: 10px;
   border: none;
@@ -271,11 +348,11 @@ p {
 /*styling voor de section verrijken*/
 .verrijken h2 {
   font-family: "Verdana", "sans-serif";
-  font-size: 16pt;
+  font-size: 1.34;
   font-weight: lighter;
   margin-bottom: -25px;
   margin-top: 30px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .carrousel3 {
@@ -291,12 +368,14 @@ p {
 
 .verrijken button {
   font-family: "Verdana", "sans-serif";
-  color: white;
-  background-color: #00a1de;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  margin: 10px;
+  color: var(--background-color2);
+  background-color: var(--background-color);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 18px;
+  margin-right: 18px;
   margin-top: 30px;
+  margin-bottom: 30px;
   width: 335px;
   border: none;
   border-radius: 2px;
@@ -311,16 +390,15 @@ p {
   padding-left: 10px;
   padding-right: 8px;
   padding-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
   margin-top: 30px;
-  width: 95%;
 }
 
 .speciale_aanbiedingen h2 {
   font-family: "Verdana", "sans-serif";
   font-weight: lighter;
-  font-size: 15pt;
+  font-size: 1.3em;
   margin-left: 10px;
   margin-bottom: 5px;
 }
@@ -328,15 +406,15 @@ p {
 .speciale_aanbiedingen p {
   margin-top: 0;
   margin-left: 10px;
-  font-size: 10pt;
+  font-size: 0.85em;
 }
 
 .speciale_aanbiedingen button {
   font-family: "Verdana", "sans-serif";
-  color: white;
-  background-color: #00a1de;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  color: var(--background-color2);
+  background-color: var(--background-color);
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-bottom: 10px;
   margin-top: 15px;
   margin-left: 10px;
@@ -346,16 +424,11 @@ p {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
 }
 
-.button4 {
-  margin: 10px;
-  width: 90%;
-  border-bottom: 1px solid #00a1de;
-}
 
 /*styling voor de knop om naar boven te gaan*/
 .back {
   margin-top: 30px;
-  margin-left: 90px;
+  margin-left: 105px;
   margin-bottom: 80px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -363,32 +436,34 @@ p {
   padding-left: 15px;
   border: 1;
   border-radius: 2px;
-  border-color: #00a1de;
+  border-color: var(--background-color);
   font-family: "Verdana", "sans-serif";
-  color: #00a1de;
-  background-color: white;
+  color: var(--background-color);
+  background-color: var(--background-color2);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+  border-bottom: 1px solid var(--background-color);
 }
 
 /*styling voor de sociale media iconen*/
-.facebook {
+.sociale_media :first-child {
   display: flex;
   height: 35px;
   margin-left: 10px;
 }
 
-.twitter {
+.sociale_media :nth-child(2) {
   display: flex;
   height: 15px;
-  margin-left: 50px;
-  margin-top: -25px;
+  margin-left: 40px;
+  margin-top: -20px;
+  margin-top: -35px;
 }
 
-.linkedin {
+.sociale_media :nth-child(3) {
   display: flex;
   height: 35px;
-  margin-left: 85px;
-  margin-top: -25px;
+  margin-left: 95px;
+  margin-top: px;
 }
 
 /*styling voor de footer*/
@@ -396,14 +471,14 @@ p {
   display: flex;
   flex-direction: column;
   width: 98%;
-  font-size: 13pt;
+  font-size: 1em;
   padding: 0;
   border-top: 1px;
 }
 
 .footer li {
   font-family: "Verdana", "sans-serif";
-  color: #003145;
+  color: var(--text-color);
   background-color: #EDf0f0;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -412,7 +487,7 @@ p {
   margin-left: 10px;
   width: 95%;
   border: 0;
-  border-top: 1px solid #00a1de;
+  border-top: 1px solid var(--background-color);
   border-radius: 2px;
   font-family: "Verdana", "sans-serif";
   text-align: left;
@@ -429,11 +504,11 @@ p {
   bottom: 0;
   left: 0;
   z-index: 9999;
-  background-color: white;
+  background-color: var(--background-color2);
 }
 
 .footerMenu {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Verdana", "Geneva", "Tahoma", "sans-serif";
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -442,8 +517,8 @@ p {
   margin-bottom: 15px;
   font-size: 10px;
   justify-content: space-around;
-  fill: #00a1de;
-  background-color: white;
+  fill: var(--background-color);
+  background-color: var(--background-color2);
 }
 
 .footerSvg {
@@ -452,12 +527,10 @@ p {
   list-style: none;
   margin-left: -20px;
   margin-right: -10px;
-  margin-top: -10px;
+  margin-top: 3px;
   margin-bottom: 20px;
   padding-top: 10px;
   justify-content: space-around;
-  fill: #00a1de;
-  background-color: white;
 }
 
 
@@ -466,75 +539,63 @@ p {
 
 /* hier begint de css voor de tweede pagina */
 
-/*styling voor de navigatie*/
-.page2 .nav {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
-  display: flex;
-  padding: 0.2em;
-  align-items: center;
+
+
+
+
+/*styling voor de h1 elementen in de class "none"*/
+.page2 .none h1 {
+  font-family: "Verdana", "Geneva", "Tahoma", "sans-serif";
+  color: var(--text-color);
+  font-weight: 50;
+  font-size: 1.8em;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
-.page2 .nav svg {
-  height: 20px;
-  width: 20px;
-  margin: 0 5px;
+/*styling voor de h1/2/3 elementen*/
+.page2 h1 {
+  font-family: "Verdana", "Geneva", "Tahoma", "sans-serif";
+  color: var(--text-color);
+  font-weight: 50;
+  font-size: 1.8em;
 }
 
-.page2 .nav img {
-  height: 30px;
-  width: 50px;
-  margin: 0 5px;
+.page2 h2 {
+  font-family: "Verdana", "Geneva", "Tahoma", "sans-serif";
+  color: var(--text-color);
+  font-weight: 50;
+  font-size: 1.34em;
+  margin-top: 50px;
+  margin-left: 10px;
 }
 
-.page2 .nav svg:last-of-type {
-  margin-left: auto;
+.page2 h3 {
+  font-family: "Verdana", "Geneva", "Tahoma", "sans-serif";
+  color: var(--text-color);
+  font-weight: 400;
+  margin-left: 10px;
+  padding-top: 10px;
 }
 
-.page2 .nav > section {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, .5);
-  z-index: 100000;
-  display: none;
+/*styling voor de p elementen in page 2*/
+.page2 p {
+  font-family: "Verdana", "Geneva", "Tahoma", "sans-serif";
+  color: gray;
+  width: 95%;
+  font-size: 0.84em;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
 
-.page2 .menuOpen {
-  display: unset !important;
+/* styling voor de navigatie in de corona pagina */
+.page2 .nav>section {
+  margin: 0 !important;
 }
 
-.page2 .nav > section > section {
-  background: white;
-  width: 80%;
-  height: 100%;
-}
-
-.page2 .nav > section > section ul {
-  margin: 0;
-  list-style: none;
-  padding: 0;
-  width: 100%;
-  padding-top: 7px;
-}
-
-.page2 .nav > section > section ul li {
-  width: 100%;
-}
-
-.page2 .nav > section > section ul li a {
-  padding: 1em 2em;
-  width: 100%;
-  display: inline-block;
-  text-decoration: none;
-  color: #003145;
-  font-family: "Verdana", "sans-serif";
-}
-
-.page2 .nav > section > section ul li a.active {
-  border-left: 4px solid #e37222;
-  background-color: #f0efed;
+.page2 .nav>section>section {
+  margin: 0 !important;
 }
 
 /*styling voor alle sections*/
@@ -542,8 +603,8 @@ p {
   padding-bottom: 1px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
   border-radius: 2px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
   margin-top: 30px;
 }
 
@@ -552,66 +613,20 @@ p {
   padding-bottom: 0;
   box-shadow: none;
   border-radius: 2px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 15px;
   margin-top: 10px;
 }
 
-/*styling voor de p elementen in de class "none"*/
-.page2 .noneP {
-  display: inline-block;
-  color: #003145;
+/*styling voor het eerste element*/
+.page2 :first-child {
   border: 0;
-  margin-top: 15px;
 }
 
-.page2 .noneP span {
-  border-bottom: 1px solid #003145;
-}
-
-/*styling voor de h1 elementen in de class "none"*/
-.page2 .none h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #003145;
-  font-weight: 50;
-  font-size: 1.8em;
-  margin-left: 10px;
-  margin-top: -10px;
-}
-
-/*styling voor de h1/2/3 elementen*/
-.page2 h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #003145;
-  font-weight: 50;
-  font-size: 1.8em;
-  margin-left: 10px;
-}
-
-.page2 h2 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #003145;
-  font-weight: 50;
-  font-size: 16pt;
-}
-
-.page2 h3 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #003145;
-  font-weight: 400;
-  margin-left: 10px;
-  padding-top: 10px;
-}
-
-/*styling voor de p elementen in page 2*/
-.page2 p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: gray;
-  width: 95%;
-  font-size: 10pt;
-  font-weight: 400;
-  margin-left: 10px;
-  margin-bottom: 20px;
+/* styling voor de link om terug te gaan */
+.page2 span a:link {
+  border-bottom: 1px solid var(--text-color);
+  text-decoration: none;
 }
 
 /*styling voor de afbeeldingen in page 2*/
@@ -624,33 +639,40 @@ p {
 .page2 .none .facebook {
   display: flex;
   height: 35px;
-  margin-left: 3px;
+  margin-left: 10px;
+  padding-top: 10px;
 }
 
 .page2 .none .twitter {
   display: flex;
   height: 15px;
+  margin-left: 50px;
+  margin-top: -20px;
 }
 
 .page2 .none .linkedin {
   display: flex;
   height: 35px;
+  margin-left: 95px;
+  margin-top: -30px;
+  padding-top: 10px;
 }
 
+
 /*styling voor de footer in page 2*/
-.footerNav {
+.page2 .footerNav {
   position: fixed;
   bottom: 0;
   left: 0;
   z-index: 9999;
-  background-color: white;
+  background-color: var(--background-color2);
 }
 
 .page2 .none .footer {
   display: flex;
   flex-direction: column;
   width: 98%;
-  font-size: 13pt;
+  font-size: 1.1em;
   padding: 0;
   border-top: 1px;
 }
@@ -659,6 +681,32 @@ p {
   margin-top: 80px;
   margin-left: 5px;
   margin-right: 5px;
-  border-top: 1px solid #00a1de;
+  border-top: 1px solid var(--background-color);
 }
 
+.page2 .footerSvg {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: -20px;
+  margin-right: -10px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  padding-top: 0;
+  justify-content: space-around;
+}
+
+.page2 .footerMenu {
+  font-family: "Verdana", "Geneva", "Tahoma", "sans-serif";
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: -35px;
+  margin-top: -15px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  font-size: 10px;
+  justify-content: space-around;
+  fill: var(--background-color);
+  background-color: var(--background-color2);
+}

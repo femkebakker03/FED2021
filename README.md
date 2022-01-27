@@ -22,7 +22,7 @@ Femke Bakker
 Blauwe piste
 
 #### Je focus:
-Eerst heb ik gekozen voor responsive voor voor de herkansing ben ik toch gegaan voor surface plane
+Responsive
  
 </details>
 
@@ -190,7 +190,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 Ik vond dit hele vak lastig. Vooral het responsive. <img src="images/grotenav.png" width="375px" alt="de corona pagina van KLM"</img>
-Hier zie je dat de navigatie erg groot wordt wanneer de pagina groter is. Uiteindelijk ben ik voor de herkansing gegaan voor de focus op de surface plane. Dit vond ik beter te doen maar nog steeds wel lastig. 
+Hier zie je dat de navigatie erg groot wordt wanneer de pagina groter is. 
 
 
 ### Screenshot(s)
@@ -216,10 +216,6 @@ Hier zie je dat de navigatie erg groot wordt wanneer de pagina groter is. Uitein
 2. https://stackoverflow.com/questions/60680652/how-to-add-a-shadow-under-a-navbar-using-css
 	Dit heb ik gebruikt voor de schaduw under de buttons en de nav. 
 3. https://www.codegrepper.com/code-examples/css/css+pin+navbar+to+top+of+screen
-	Dit heb ik gebruikt voor het vastzetten van de onderste navigatie. 
-4. https://www.w3schools.com/howto/howto_css_switch.asp
-	Dit heb ik gebruikt voor de toggle.
-5. https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
-	Dit heb ik gebruikt voor de CSS variabelen
+	Dit heb ik gebruikt voor het vastzetten van de onderste navigatie. 	
 
 </details>
